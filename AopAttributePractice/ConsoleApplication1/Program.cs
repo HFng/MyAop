@@ -115,7 +115,7 @@ namespace ConsoleApplication1
             Console.WriteLine("开始执行DBTest类Get(string aa,string bb)方法");
             DBTest2 ss = new DBTest2();
             ss.TwoMethod();
-            TwoMethod();
+            //TwoMethod();
             //DBTest1 test = new DBTest1();
             //test.GetDBTest1();
             Console.WriteLine("结束执行DBTest类Get(string aa,string bb)方法");
