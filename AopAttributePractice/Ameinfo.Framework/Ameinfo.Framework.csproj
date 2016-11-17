@@ -49,10 +49,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Capinfo.BJMedicare.Sys.Net20.Common.CommonLib.DBHelper, Version=2.0.2965.22198, Culture=neutral, PublicKeyToken=b683235af60cce35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Pubdll\Capinfo.BJMedicare.Sys.Net20.Common.CommonLib.DBHelper.dll</HintPath>
-    </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Pubdll\log4net.dll</HintPath>
