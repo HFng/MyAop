@@ -8,8 +8,8 @@
     <ProjectGuid>{DC21BEDC-8441-4788-B996-A47864E33AA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Capinfo.Framework</RootNamespace>
-    <AssemblyName>Capinfo.Framework</AssemblyName>
+    <RootNamespace>Ameinfo.Framework</RootNamespace>
+    <AssemblyName>Ameinfo.Framework</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -84,9 +84,6 @@
     <Compile Include="AOP\DataHelper\AopTransactionMethodAttribute.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="AOP\DataHelper\DataBase.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="AOP\Exception\AopExecptionAttribute.cs" />
     <Compile Include="AOP\Exception\AopExecptionHandler.cs" />
     <Compile Include="AOP\Exception\AopExecptionMethodAttribute.cs" />
@@ -95,7 +92,6 @@
     <Compile Include="XML\XmlConfig.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pubdll\Capinfo.BJMedicare.Sys.Net20.Common.CommonLib.DBHelper.dll" />
     <Content Include="Pubdll\log4net.dll" />
   </ItemGroup>
   <ItemGroup>

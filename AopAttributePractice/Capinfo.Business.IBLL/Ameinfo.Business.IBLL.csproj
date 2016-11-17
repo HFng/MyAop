@@ -8,8 +8,8 @@
     <ProjectGuid>{D6F6E088-1D57-4331-A013-FA732FC7B509}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Capinfo.Business.IBLL</RootNamespace>
-    <AssemblyName>Capinfo.Business.IBLL</AssemblyName>
+    <RootNamespace>Ameinfo.Business.IBLL</RootNamespace>
+    <AssemblyName>Ameinfo.Business.IBLL</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Capinfo.Framework.Xml;
+using Ameinfo.Framework.Xml;
 using System.Reflection;
 using System.Xml;
 using System.IO;
 using System.Configuration;
 
-namespace Capinfo.Framework
+namespace Ameinfo.Framework
 {
     public class Container
     {

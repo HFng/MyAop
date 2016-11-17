@@ -1,15 +1,13 @@
-﻿using Capinfo.Business.BLL.AspectClass;
+﻿using Ameinfo.Business.BLL.AspectClass;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Capinfo.Framework.AOP.DataHelper;
+using Ameinfo.Framework.AOP.DataHelper;
 using System.Data;
-using Capinfo.Data.DLL;
-using Capinfo.Data.DLLFactory;
-using Capinfo.Framework.AOP;
-using Capinfo.Business.BLL;
+using Ameinfo.Framework.AOP;
+using Ameinfo.Business.BLL;
 
 namespace ConsoleApplication1
 {
@@ -64,8 +62,8 @@ namespace ConsoleApplication1
             Console.Read();
 
 
-            DataHelper datahelper = new DataHelper();
-            datahelper.select();
+            //DataHelper datahelper = new DataHelper();
+            //datahelper.select();
             #endregion
 
 
@@ -151,27 +149,5 @@ namespace ConsoleApplication1
     }
 
 
-
-    #region  数据库操作
-    //[AopTransaction]
-    public class DataHelper 
-    {
-        //[AopTransactionMethod]
-        public DataSet select ()
-        {
-            Test dal_hd_extrapsn_notify = new Test();
-            try
-            {
-                dal_hd_extrapsn_notify.GetIC_NO1("111");
-            }
-            catch
-            {
- 
-            }
-            
-            return null;
-        }
-    }
-    #endregion
 
 }

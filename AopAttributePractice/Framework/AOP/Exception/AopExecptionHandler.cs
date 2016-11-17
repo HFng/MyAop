@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Runtime.Remoting.Messaging;
 
-namespace Capinfo.Framework.AOP.Exception
+namespace Ameinfo.Framework.AOP.Exception
 {
     //AOP方法处理类,实现了IMessageSink接口,以便返回给IContributeObjectSink接口的GetObjectSink方法
     public sealed class AopExecptionHandler : IMessageSink

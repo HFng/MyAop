@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 
-namespace Capinfo.Framework.AOP
+namespace Ameinfo.Framework.AOP
 {
     public class AspectBase : IMessageSink
     {

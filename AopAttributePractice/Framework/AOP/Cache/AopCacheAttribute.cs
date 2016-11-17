@@ -5,7 +5,7 @@ using System.Text;
 using System.Runtime.Remoting.Contexts;
 using System.Runtime.Remoting.Messaging;
 
-namespace Capinfo.Framework.AOP.Cache
+namespace Ameinfo.Framework.AOP.Cache
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
     public class AopCacheAttribute : ContextAttribute, IContributeObjectSink

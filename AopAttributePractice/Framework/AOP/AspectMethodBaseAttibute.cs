@@ -6,7 +6,7 @@ using System.Runtime.Remoting.Contexts;
 using System.Runtime.Remoting.Messaging;
 using System.Collections;
 
-namespace Capinfo.Framework.AOP
+namespace Ameinfo.Framework.AOP
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
     public class AspectMethodBaseAttibute : Attribute

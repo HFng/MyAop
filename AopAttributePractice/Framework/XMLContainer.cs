@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Capinfo.Framework
+namespace Ameinfo.Framework
 {
     public class XMLContainer
     {

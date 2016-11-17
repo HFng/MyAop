@@ -6,7 +6,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace Capinfo.Framework.AOP.DataHelper
+namespace Ameinfo.Framework.AOP.DataHelper
 {
     public sealed class AopTransaction : IMessageSink
     {
@@ -57,35 +57,35 @@ namespace Capinfo.Framework.AOP.DataHelper
             else
             {
                 //此处换成自己的数据库连接
-                using (IDbConnection Connect = DataBase.GetConnection())
-                {
-                    Connect.Open();
-                    IDbTransaction SqlTrans = Connect.BeginTransaction();
+                //using (IDbConnection Connect = DataBase.GetConnection())
+                //{
+                //    Connect.Open();
+                //    IDbTransaction SqlTrans = Connect.BeginTransaction();
 
-                    //讲存储存储在上下文
-                    CallContext.SetData(AopTransaction.ContextName, SqlTrans);
+                //    //讲存储存储在上下文
+                //    CallContext.SetData(AopTransaction.ContextName, SqlTrans);
 
-                    //传递消息给下一个接收器 - > 就是指执行你自己的方法
-                    retMsg = nextSink.SyncProcessMessage(msg);
+                //    //传递消息给下一个接收器 - > 就是指执行你自己的方法
+                //    retMsg = nextSink.SyncProcessMessage(msg);
 
-                    if (SqlTrans != null)
-                    {
-                        IMethodReturnMessage methodReturn = retMsg as IMethodReturnMessage;
-                       System.Exception except = methodReturn.Exception;
+                //    if (SqlTrans != null)
+                //    {
+                //        IMethodReturnMessage methodReturn = retMsg as IMethodReturnMessage;
+                //       System.Exception except = methodReturn.Exception;
 
-                        if (except != null)
-                        {
-                            SqlTrans.Rollback();
-                            //可以做日志及其他处理
-                        }
-                        else
-                        {
-                            SqlTrans.Commit();
-                        }
-                        SqlTrans.Dispose();
-                        SqlTrans = null;
-                    }
-                }
+                //        if (except != null)
+                //        {
+                //            SqlTrans.Rollback();
+                //            //可以做日志及其他处理
+                //        }
+                //        else
+                //        {
+                //            SqlTrans.Commit();
+                //        }
+                //        SqlTrans.Dispose();
+                //        SqlTrans = null;
+                //    }
+                //}
             }
 
             return retMsg;

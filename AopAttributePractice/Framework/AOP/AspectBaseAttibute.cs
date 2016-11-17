@@ -7,7 +7,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Collections;
 
-namespace Capinfo.Framework.AOP
+namespace Ameinfo.Framework.AOP
 {
     [AttributeUsage(AttributeTargets.Method| AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
     public abstract class AspectBaseAttibute : ContextAttribute, IContributeObjectSink

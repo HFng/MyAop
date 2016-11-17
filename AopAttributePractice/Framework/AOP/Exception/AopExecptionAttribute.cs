@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Runtime.Remoting.Contexts;
 
-namespace Capinfo.Framework.AOP.Exception
+namespace Ameinfo.Framework.AOP.Exception
 {
     //贴上类的标签
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]

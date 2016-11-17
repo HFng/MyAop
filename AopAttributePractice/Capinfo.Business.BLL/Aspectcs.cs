@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Capinfo.Framework.AOP;
+using Ameinfo.Framework.AOP;
 using System.Collections;
 using System.Runtime.Remoting.Messaging;
 
-namespace Capinfo.Business.BLL
+namespace Ameinfo.Business.BLL
 {
     public class Aspect : AspectBaseAttibute
     {//public IMessageSink nextSink; //保存下一个接收器

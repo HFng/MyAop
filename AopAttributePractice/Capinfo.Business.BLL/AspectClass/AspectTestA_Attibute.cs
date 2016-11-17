@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Capinfo.Framework.AOP;
+using Ameinfo.Framework.AOP;
 using System.Runtime.Remoting.Messaging;
 using System.Collections;
 
-namespace Capinfo.Business.BLL.AspectClass
+namespace Ameinfo.Business.BLL.AspectClass
 {
     public class AspectTestA_Attibute : AspectMethodBaseAttibute
     {

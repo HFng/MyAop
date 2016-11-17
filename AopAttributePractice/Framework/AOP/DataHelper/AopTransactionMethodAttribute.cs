@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using System.Text;
 
-namespace Capinfo.Framework.AOP.DataHelper
+namespace Ameinfo.Framework.AOP.DataHelper
 {
     /// <summary>
     /// 标示方法内所有数据库操作加入事务控制

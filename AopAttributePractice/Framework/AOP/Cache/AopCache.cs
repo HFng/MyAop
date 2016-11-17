@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Remoting.Messaging;
 
-namespace Capinfo.Framework.AOP.Cache
+namespace Ameinfo.Framework.AOP.Cache
 {
    public class AopCache:IMessageSink
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Runtime.Remoting.Messaging;
 using System.Runtime.Remoting.Contexts;
 
-namespace Capinfo.Framework.AOP.DataHelper
+namespace Ameinfo.Framework.AOP.DataHelper
 {
     /// <summary>
     /// 标注类某方法内所有数据库操作加入事务控制

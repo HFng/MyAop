@@ -6,9 +6,9 @@ using System.Text;
 using System.Runtime.Remoting.Messaging;
 using System.Collections;
 
-namespace Capinfo.Business.BLL.AspectClass
+namespace Ameinfo.Business.BLL.AspectClass
 {
-    public class AspectTestAttibute : Capinfo.Framework.AOP.AspectMethodBaseAttibute
+    public class AspectTestAttibute : Ameinfo.Framework.AOP.AspectMethodBaseAttibute
     {
 
         //public string AssemblyFillName = "";

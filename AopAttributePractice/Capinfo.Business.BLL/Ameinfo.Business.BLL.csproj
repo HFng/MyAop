@@ -8,8 +8,8 @@
     <ProjectGuid>{42801DB6-5C9E-4245-A6D6-8AAA4C23A7F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Capinfo.Business.BLL</RootNamespace>
-    <AssemblyName>Capinfo.Business.BLL</AssemblyName>
+    <RootNamespace>Ameinfo.Business.BLL</RootNamespace>
+    <AssemblyName>Ameinfo.Business.BLL</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>
@@ -64,9 +64,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Framework\Capinfo.Framework.csproj">
+    <ProjectReference Include="..\Framework\Ameinfo.Framework.csproj">
       <Project>{dc21bedc-8441-4788-b996-a47864e33aa4}</Project>
-      <Name>Capinfo.Framework %28Capinfo.Framework\Capinfo.Framework%29</Name>
+      <Name>Ameinfo.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

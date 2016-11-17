@@ -59,25 +59,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Capinfo.Business.BLL\Capinfo.Business.BLL.csproj">
+    <ProjectReference Include="..\Capinfo.Business.BLL\Ameinfo.Business.BLL.csproj">
       <Project>{42801db6-5c9e-4245-a6d6-8aaa4c23a7f7}</Project>
-      <Name>Capinfo.Business.BLL</Name>
+      <Name>Ameinfo.Business.BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Capinfo.Data.DLLFactory\Capinfo.Data.DLLFactory.csproj">
-      <Project>{FF819D4F-41BD-41E4-9DB4-47553F8775DF}</Project>
-      <Name>Capinfo.Data.DLLFactory</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Capinfo.Data.DLL\Capinfo.Data.DLL.csproj">
-      <Project>{E63756C6-08A3-4075-904A-935F744F4621}</Project>
-      <Name>Capinfo.Data.DLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Framework\Capinfo.Framework.csproj">
+    <ProjectReference Include="..\Framework\Ameinfo.Framework.csproj">
       <Project>{dc21bedc-8441-4788-b996-a47864e33aa4}</Project>
-      <Name>Capinfo.Framework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IDLL\Capinfo.Data.IDLL.csproj">
-      <Project>{357C4194-B06C-4E42-8987-B4A476E56311}</Project>
-      <Name>Capinfo.Data.IDLL</Name>
+      <Name>Ameinfo.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

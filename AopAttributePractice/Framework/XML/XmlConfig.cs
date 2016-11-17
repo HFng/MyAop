@@ -7,7 +7,7 @@ using System.IO;
 using System.Configuration;
 using System.Reflection;
 
-namespace Capinfo.Framework.Xml
+namespace Ameinfo.Framework.Xml
 {
     /// <summary>
     /// 说明：程序配置保存帮助类 for XML
